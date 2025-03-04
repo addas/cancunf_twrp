@@ -116,6 +116,10 @@ jobs:
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
 
+    - name: Clean repo (If exists)
+      run: rm -rf vendor/ device/ out/
+      id: cleanrepo
+
     - name: Repo Sync
       run: |
         repo sync -j$(nproc --all) --force-sync
