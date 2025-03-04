@@ -25,11 +25,11 @@ on:
         default: 'device/motorola/cancunf'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL'
-        required: true
+        required: false
         default: 'https://github.com/yaap/vendor_motorola_cancunf-motcamera'
       COMMON_PATH:
         description: 'COMMON_PATH'
-        required: true
+        required: false
         default: 'vendor/motorola/cancunf-motcamera'
       DEVICE_NAME:
         description: 'DEVICE_NAME'
