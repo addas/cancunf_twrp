@@ -6,7 +6,7 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
+        default: 'https://github.com/addas/platform_manifest_twrp_aosp'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
@@ -26,7 +26,7 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL'
         required: false
-        default: 'https://github.com/addas/vendor_motorola_cancunf'
+        default: 'https://github.com/yaap/vendor_motorola_cancunf'
       COMMON_PATH:
         description: 'COMMON_PATH'
         required: false
