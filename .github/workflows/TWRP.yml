@@ -26,7 +26,7 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL'
         required: false
-        default: 'https://github.com/yaap/vendor_motorola_cancunf'
+        default: 'https://github.com/addas/vendor_motorola_cancunf'
       COMMON_PATH:
         description: 'COMMON_PATH'
         required: false
